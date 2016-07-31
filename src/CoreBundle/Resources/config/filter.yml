@@ -1,7 +1,7 @@
 services:
     core.base_filter:
         class: CoreBundle\Filter\Filter
-        arguments: ['@translator']
+        arguments: ['@translator.default']
         public: false
 
     core.date_filter:

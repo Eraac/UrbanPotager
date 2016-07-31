@@ -45,7 +45,7 @@ abstract class Filter
     const ORDER_BY = 'order_by';
     const ORDER = 'order';
 
-    public function __construct(\Symfony\Component\Translation\DataCollectorTranslator $translator)
+    public function __construct(\Symfony\Bundle\FrameworkBundle\Translation\Translator $translator)
     {
         $this->translator = $translator;
         $this->orders = [];

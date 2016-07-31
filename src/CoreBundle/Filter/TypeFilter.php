@@ -10,7 +10,7 @@ class TypeFilter extends Filter
     const TYPE = 'type';
     const NAME = 'name';
 
-    public function __construct(\Symfony\Component\Translation\DataCollectorTranslator $translator, EntityRepository $repo)
+    public function __construct(\Symfony\Bundle\FrameworkBundle\Translation\Translator $translator, EntityRepository $repo)
     {
         parent::__construct($translator);
 

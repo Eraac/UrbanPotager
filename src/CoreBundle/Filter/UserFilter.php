@@ -10,7 +10,7 @@ class UserFilter extends Filter
     const USERNAME = 'username';
     const EMAIL = 'email';
 
-    public function __construct(\Symfony\Component\Translation\DataCollectorTranslator $translator, EntityRepository $repo)
+    public function __construct(\Symfony\Bundle\FrameworkBundle\Translation\Translator $translator, EntityRepository $repo)
     {
         parent::__construct($translator);
 

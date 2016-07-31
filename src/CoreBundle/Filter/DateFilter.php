@@ -13,7 +13,7 @@ class DateFilter extends Filter
     private $dateBefore;
     private $dateAfter;
 
-    public function __construct(\Symfony\Component\Translation\DataCollectorTranslator $translator)
+    public function __construct(\Symfony\Bundle\FrameworkBundle\Translation\Translator $translator)
     {
         parent::__construct($translator);
 
